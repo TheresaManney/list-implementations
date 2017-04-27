@@ -56,6 +56,7 @@ class ArrayList
         biggest = @storage[i]
       end
     end
+    return biggest
   end
 
   def to_s # in java.. this is written toString
